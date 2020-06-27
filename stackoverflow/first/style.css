@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    padding-top:20px;
+}
+
+header{
+    display:flex;
+    justify-content:space-evenly;
+    width: 50%;
+    margin: auto;
+    flex-wrap:wrap;
+    
+}
+
+.nav-links{
+    display: flex;
+}
+
+
+.nav-links{
+    justify-content: space-evenly;
+    max-width: 300px;
+    list-style: none;
+}
+
+.nav-link{
+    color: #ffffff;
+    font-size: 18px;
+    padding:10px;
+    text-decoration: none;
+}
+
+
+#justdance {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    align-items: top;
+}
+
+.about {
+  padding:10px;
+    background-color: #c4c4c4;
+    width: 50%;
+    margin: auto;
+    
+    
+  }
+  .search-container{
+    min-width:30px
+
+}
+.quote {
+  
+    text-align: center;
+    display: block;
+    border-radius: 10px;
+    border-style: solid;
+    box-shadow: rgba(0, 0, 0, 0.42) 0px 2px 2px 0px;
+   padding:5px;
+    margin: 10px auto 0 auto;
+}
+
+.description {
+    margin: 30px auto 0 auto;
+    
+    width: 70%;
+    font-size: 13px;
+}
+
+
+.polygon {
+
+    height: 0;
+    border-top-width: 82px;
+    border-top-style: solid;
+    border-top-color: transparent;
+    border-right-width: 90px;
+    border-right-style: solid;
+    border-right-color: #c4c4c4;
+    transform: rotate(-180deg);
+}
+
+.piirkonnad {
+  position:relative;
+  display:flex;
+    background-color: #222222;
+    display: flex;
+    width: 50%;
+    padding-top:30px;
+    height: 29vh;
+    margin: auto;
+    justify-content:space-evenly;
+}
+
+.piirkonnad p {
+   text-align:center;
+    font-family: Roboto;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+
+    color: #FFFFFF;
+}
+footer{
+  margin-top:1em;
+}
+.copyright p {
+  text-align:center;
+font-family: Roboto;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 12px;
+
+color: #FFFFFF;
+}
+
+.social {
+    display:flex;
+    justify-content:center;
+}
+
+.fa {
+    padding: 15px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+
+.fa-instagram {
+    background: #c4c4c4;
+    color: black;
+  }
+
+.fa-twitter {
+    background: #c4c4c4;
+    color: black;
+  }
+
+.fa-facebook {
+    background: #c4c4c4;
+    color: black;
+  }
